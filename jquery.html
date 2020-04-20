@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>this is learning for jquery</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>	
+<style>
+	.main{
+		display: flex;
+	}
+
+	.red{
+		width: 100px;
+		height: 100px;
+		border: 1px solid black;
+	}
+
+	.blue{
+		width: 100px;
+		height: 100px;
+		border: 1px solid blue;
+	}
+
+
+</style>
+
+</head>
+<body>
+
+<div id="test"> i am going to hide you ...</div>
+
+<!-- <button id="hideandseek"> click me </button> -->
+
+<!-- <p class="p1"> this is first paragraph</p>
+<p>this is second paragraph</p>
+
+<br/>
+
+<ul>
+	<li style="background-color: red ;color: white; width: 400px"> this is first link</li>
+
+	<li style="background-color: yellow ; color: green;width: 500px">this is second list</li>
+</ul> -->
+
+<form>
+	<label> user name</label>
+	<input class="xyz" type="text" name="rahul">
+</form>
+
+<!-- <a href="#" id='anchor'> welecome to my channel</a> <br/>
+
+<button id ='hideandseek' style="background-color: green ; color: white ; border: solid; padding: 10px ;border-radius: 20px "> click me for test</button> -->
+
+<script>
+	
+$(document).ready(()=>{
+	$(".xyz").click(()=>{
+		$(this).css('background-color','red');
+	});
+});
+
+
+
+// // document.getElementByID("test").innerHTML = "hellow java script";
+
+
+
+// // function hideandseek(){
+// // //alert("rahul");
+// // document.getElementById('test').style.display ="none";
+
+// // }
+
+
+// // $(document).ready(function(){
+
+// // $('#test').text('hellow world by jquery');
+
+// // });
+
+// $(document).ready(()=>{
+// 	$('#hideandseek').click(() =>{
+// 		$('#anchor').css({"border":"solid",
+// 							"background-color":"yellow"				});
+// 	})
+// })
+
+</script>
+
+
+</body>
+</html>
